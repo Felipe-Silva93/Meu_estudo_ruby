@@ -7,3 +7,6 @@ soma = 5+3.2
 puts soma #sempre retorna .flutuante
 
 p 5.send("+",3)
+
+p 10.odd? # é impar? boolean
+p 10.even? # é par? boolean
