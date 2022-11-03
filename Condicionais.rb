@@ -12,3 +12,11 @@ elsif valor == 20
 else
     puts "Esse valor é menor que 20"    
 end    
+
+valor2=""
+
+if !valor2.empty?
+    puts"tenho algu"
+else
+    puts"estou vazia"
+end        
