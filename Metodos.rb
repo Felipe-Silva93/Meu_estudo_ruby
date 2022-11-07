@@ -23,3 +23,16 @@ end
 puts" imprimindo na tela"
 
 puts soma2(10)   
+
+puts "-----pargumentos nomeados-----"
+
+def soma_comParametro_nomeados (valorA:,valorB:)
+    puts "Estou somando #{valorA} + #{valorB}"
+
+     valorA + valorB
+
+end    
+
+puts" imprimindo na tela"
+
+puts soma_comParametro_nomeados(valorA: 10,valorB: 5)   
