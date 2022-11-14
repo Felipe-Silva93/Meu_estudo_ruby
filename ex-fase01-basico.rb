@@ -2,9 +2,9 @@
 
 arr = [2,3,4,10,40]
 x = 10
-N = arr.length
+#N = arr.length
 
-def search(arr, N, x)
+def search(arr, x)
     
         for i in arr
             if (arr[i] == x)
@@ -13,15 +13,16 @@ def search(arr, N, x)
             end    
             
         end 
+end 
  
 
-result = search(arr, N, x)
+result = search(arr, x)
 
     if(result == -1)
-        puts"Element is not present in array"
+        puts"Elemento não está presente no array"
     else
-        puts"Element is present at index #{result}"
+        puts"Elemento está presente na posição  #{result}"
     end
-end
+
 
  
